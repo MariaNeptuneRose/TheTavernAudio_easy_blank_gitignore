@@ -559,6 +559,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tavern
       objectReference: {fileID: 0}
+    - target: {fileID: 1387666638803148, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      propertyPath: m_Name
+      value: ff
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      propertyPath: m_TagString
+      value: Doors_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      propertyPath: m_TagString
+      value: Doors_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      propertyPath: m_TagString
+      value: Doors_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4369231821530882, guid: cb181bc6c302bca40929333077286a04, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9713624
@@ -688,12 +704,117 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159108037}
+    - targetCorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159108035}
+    - targetCorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159108034}
+    - targetCorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159108033}
   m_SourcePrefab: {fileID: 100100000, guid: cb181bc6c302bca40929333077286a04, type: 3}
 --- !u!1 &159108029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
   m_PrefabInstance: {fileID: 159108028}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &159108030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &159108031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &159108032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &159108033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159108030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 170
+  DoorsEvent:
+    Guid:
+      Data1: 931707084
+      Data2: 1220709435
+      Data3: -2108185197
+      Data4: 96665577
+    Path: event:/Doors
+  insideRoomSnap:
+    Guid:
+      Data1: -1940412218
+      Data2: 1098338680
+      Data3: -112769913
+      Data4: -121046555
+    Path: snapshot:/Inside Room
+--- !u!114 &159108034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159108031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 170
+  DoorsEvent:
+    Guid:
+      Data1: 931707084
+      Data2: 1220709435
+      Data3: -2108185197
+      Data4: 96665577
+    Path: event:/Doors
+  insideRoomSnap:
+    Guid:
+      Data1: -1940412218
+      Data2: 1098338680
+      Data3: -112769913
+      Data4: -121046555
+    Path: snapshot:/Inside Room
+--- !u!114 &159108035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159108032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 170
+  DoorsEvent:
+    Guid:
+      Data1: 931707084
+      Data2: 1220709435
+      Data3: -2108185197
+      Data4: 96665577
+    Path: event:/Doors
+  insideRoomSnap:
+    Guid:
+      Data1: -1940412218
+      Data2: 1098338680
+      Data3: -112769913
+      Data4: -121046555
+    Path: snapshot:/Inside Room
 --- !u!95 &159108037
 Animator:
   serializedVersion: 5
@@ -3400,6 +3521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 882882083}
+  - component: {fileID: 882882084}
   m_Layer: 0
   m_Name: RoomAmbientTriggers
   m_TagString: Untagged
@@ -3424,6 +3546,19 @@ Transform:
   - {fileID: 129069796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &882882084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882882082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4a4da891945f49aaa5b911f9f8711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientActivated: 0
 --- !u!1 &896572285
 GameObject:
   m_ObjectHideFlags: 0
