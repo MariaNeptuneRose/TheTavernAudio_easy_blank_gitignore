@@ -130,7 +130,7 @@ MonoBehaviour:
   - {fileID: 4901638564821688541}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
   - {fileID: 6060724511692334788}
   MinDistance: 1
@@ -163,7 +163,7 @@ MonoBehaviour:
   - {fileID: 7581381558075700631}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1325
+  Length: 1225
 --- !u!114 &-382453712786170942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
   - {fileID: 4901638564821688541}
   StringsBanks:
   - {fileID: 6273303815514327281}
-  cacheTime: 638841133520513925
+  cacheTime: 638847167882354801
   cacheVersion: 131617
 --- !u!114 &1933855556786456118
 MonoBehaviour:
@@ -321,10 +321,10 @@ MonoBehaviour:
   Path: Assets/dzwiekwgrach/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638841133520498700
+  lastModified: 638847167882334494
   FileSizes:
   - Name: Desktop
-    Value: 6171264
+    Value: 6171616
   Exists: 1
 --- !u!114 &5757243202416542472
 MonoBehaviour:
@@ -394,7 +394,7 @@ MonoBehaviour:
   Path: Assets/dzwiekwgrach/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638841133520513925
+  lastModified: 638847167882354801
   FileSizes:
   - Name: Desktop
     Value: 1722
