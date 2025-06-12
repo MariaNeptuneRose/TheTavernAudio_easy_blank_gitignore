@@ -53,6 +53,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{83ce1e3d-e6e7-487a-8f88-87498a0ad17d}">
+		<relationship name="masters">
+			<destination>{db08d308-0d39-45f0-8012-06c1c95fe678}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{5a0b929c-5309-4514-8038-7bca81a88c96}</destination>
 		</relationship>
@@ -130,6 +133,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{05db59a2-4a22-42f8-a9ca-c08adb57e413}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Stone</value>
 		</property>
@@ -165,7 +171,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9b87718f-0f82-492a-9978-27df2bde859b}">
 		<property name="volume">
-			<value>1</value>
+			<value>6.5</value>
 		</property>
 		<property name="name">
 			<value>Wood</value>

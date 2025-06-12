@@ -23,6 +23,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{5dddedf9-948c-4d1a-8277-8f9bf969448f}" />
 	<object class="MixerBusFader" id="{6d180773-8d5f-4a1c-943d-e8955a00a234}" />
-	<object class="MultibandEqEffect" id="{e3d83510-ed45-48f4-b86e-ff58fb58e4d6}" />
+	<object class="MultibandEqEffect" id="{e3d83510-ed45-48f4-b86e-ff58fb58e4d6}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>113.993225</value>
+		</property>
+		<property name="qualityA">
+			<value>2.31034517</value>
+		</property>
+		<property name="gainA">
+			<value>-19.6551723</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{19e86a41-35af-4ff8-a0fa-943235badcd5}" />
 </objects>

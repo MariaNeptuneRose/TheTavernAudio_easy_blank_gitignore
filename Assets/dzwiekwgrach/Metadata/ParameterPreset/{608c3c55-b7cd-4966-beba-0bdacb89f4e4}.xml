@@ -19,8 +19,8 @@
 			<value>2</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Door_Closed</value>
-			<value>Door_Open</value>
+			<value>Close</value>
+			<value>Open</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

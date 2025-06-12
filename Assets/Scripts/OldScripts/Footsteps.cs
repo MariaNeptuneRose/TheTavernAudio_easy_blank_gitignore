@@ -139,12 +139,12 @@ public class Footsteps : MonoBehaviour
                     }
                     else if (hit.collider.CompareTag("Inside_stone"))
                     {
-                        LandSound.setParameterByNameWithLabel("FootSwitcher", "stone");
+                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "stone");
                         JumpSound.start();
                     }
                     else if (hit.collider.CompareTag("Inside_wood"))
                     {
-                        LandSound.setParameterByNameWithLabel("FootSwitcher", "wood");
+                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "wood");
                         JumpSound.start();
                     }
                     else if (hit.collider.CompareTag("Bed"))
