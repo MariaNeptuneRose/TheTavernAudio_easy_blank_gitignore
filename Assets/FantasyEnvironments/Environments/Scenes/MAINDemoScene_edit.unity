@@ -2900,6 +2900,7 @@ GameObject:
   - component: {fileID: 613997985}
   - component: {fileID: 613997993}
   - component: {fileID: 613997990}
+  - component: {fileID: 613998000}
   - component: {fileID: 613997989}
   - component: {fileID: 613997994}
   - component: {fileID: 613997996}
@@ -3171,6 +3172,25 @@ MonoBehaviour:
       Data3: -71303250
       Data4: -532843822
     Path: snapshot:/Health
+--- !u!114 &613998000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1721f7eec8820054891222764183a262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicEvent:
+    Guid:
+      Data1: 1195706026
+      Data2: 1115524436
+      Data3: 1097053331
+      Data4: 930920753
+    Path: event:/Muzyka1
 --- !u!1 &679421238
 GameObject:
   m_ObjectHideFlags: 0

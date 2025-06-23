@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b5bc2f13-96f9-441c-a35e-21b7ac9169df}">
+		<property name="assetPath">
+			<value>Layers/Track4_Perc_more.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>14</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{56270f3b-76f5-4d45-85c5-c21e0c25740d}</destination>
+		</relationship>
+	</object>
+</objects>

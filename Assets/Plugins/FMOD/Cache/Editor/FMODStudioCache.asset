@@ -27,6 +27,60 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-5896342263439256147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Muzyka_warstwy/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1869285853
+    data2: 1304364134
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  Exists: 1
+--- !u!114 &-5742420155985791093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Muzyka1
+  m_EditorClassIdentifier: 
+  Path: event:/Muzyka1
+  Guid:
+    Data1: 1195706026
+    Data2: 1115524436
+    Data3: 1097053331
+    Data4: 930920753
+  Banks:
+  - {fileID: 4901638564821688541}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2205681021719074021}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70650
 --- !u!114 &-4032471469117164208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +244,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 965
+--- !u!114 &-737923594188873692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Muzyka_warstwy/Parameter 2
+  m_EditorClassIdentifier: 
+  Name: Parameter 2
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3153431906
+    data2: 2495246648
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-382453712786170942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,12 +322,14 @@ MonoBehaviour:
   - {fileID: 7274969780395573513}
   - {fileID: -1029058931948946832}
   - {fileID: 3087521613399744041}
+  - {fileID: -5742420155985791093}
+  - {fileID: 3727979305854004133}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4901638564821688541}
   StringsBanks:
   - {fileID: 6273303815514327281}
-  cacheTime: 638853227945660015
+  cacheTime: 638862727330533941
   cacheVersion: 131617
 --- !u!114 &1933855556786456118
 MonoBehaviour:
@@ -280,6 +360,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 501
+--- !u!114 &2205681021719074021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Muzyka1/MusicSwitcher
+  m_EditorClassIdentifier: 
+  Name: MusicSwitcher
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 4110050519
+    data2: 2190995976
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  Exists: 1
 --- !u!114 &2572856730034118248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +444,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 806
+--- !u!114 &3727979305854004133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Muzyka_warstwy
+  m_EditorClassIdentifier: 
+  Path: event:/Muzyka_warstwy
+  Guid:
+    Data1: -1981585206
+    Data2: 1105190814
+    Data3: -1258287481
+    Data4: -584974269
+  Banks:
+  - {fileID: 4901638564821688541}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -737923594188873692}
+  - {fileID: -5896342263439256147}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14000
 --- !u!114 &4173816062126049097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,10 +515,10 @@ MonoBehaviour:
   Path: Assets/dzwiekwgrach/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638853227945639892
+  lastModified: 638862727330514231
   FileSizes:
   - Name: Desktop
-    Value: 6173472
+    Value: 7876480
   Exists: 1
 --- !u!114 &5211146815603714708
 MonoBehaviour:
@@ -476,10 +614,10 @@ MonoBehaviour:
   Path: Assets/dzwiekwgrach/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638853227945660015
+  lastModified: 638862727330533941
   FileSizes:
   - Name: Desktop
-    Value: 1756
+    Value: 1986
   Exists: 1
 --- !u!114 &7274969780395573513
 MonoBehaviour:
