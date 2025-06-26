@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Rooms : MonoBehaviour
 {
+    public bool ambientActivated;
+
     private void OnTriggerStay(Collider other)
     {
-        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
-        roomAmbient.ambientActivated = true;
+        if (other.CompareTag("Player"))
+            ambientActivated = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
-        roomAmbient.ambientActivated = false;
+        if (other.CompareTag("Player"))
+            ambientActivated = false;
     }
 }

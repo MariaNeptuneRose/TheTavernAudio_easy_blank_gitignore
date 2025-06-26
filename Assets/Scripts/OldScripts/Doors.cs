@@ -11,6 +11,8 @@ public class Doors : MonoBehaviour, IInteractable
     bool doorsOpened = true;
     bool isRotating = false;
 
+    public Rooms room;
+
     ////////////////// FMOD Section ///////////////////
 
     // Door's sample //
@@ -89,22 +91,19 @@ public class Doors : MonoBehaviour, IInteractable
 
     void RoomsSnap()
     {
-        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
+        Debug.Log($"Door: {doorsOpened}, Ambient: {room.ambientActivated}");
 
-        if (roomAmbient.ambientActivated == true && doorsOpened == false)
+        if (room.ambientActivated == true && doorsOpened == false)
         {
             Debug.Log("im in!");
             InsideRoom = FMODUnity.RuntimeManager.CreateInstance(insideRoomSnap);
             InsideRoom.start();
         }
-        else
+        else if (room.ambientActivated == true && doorsOpened == true)
         {
-            if (roomAmbient.ambientActivated == true && doorsOpened == true)
-            {
-                Debug.Log("it works");
-                InsideRoom.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-                InsideRoom.release();
-            }
+            Debug.Log("it works");
+            InsideRoom.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            InsideRoom.release();
         }
     }
 

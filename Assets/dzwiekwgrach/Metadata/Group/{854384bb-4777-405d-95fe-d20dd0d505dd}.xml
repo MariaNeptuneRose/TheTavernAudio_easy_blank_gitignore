@@ -25,6 +25,9 @@
 	<object class="MixerBusFader" id="{6d180773-8d5f-4a1c-943d-e8955a00a234}" />
 	<object class="MultibandEqEffect" id="{e3d83510-ed45-48f4-b86e-ff58fb58e4d6}">
 		<property name="filterTypeA">
+			<value>0</value>
+		</property>
+		<property name="filterTypeC">
 			<value>8</value>
 		</property>
 		<property name="frequencyA">

@@ -37,7 +37,7 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>10</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{15255fa9-8fa7-440c-b558-db2d0eaf8313}</destination>
@@ -51,7 +51,7 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-3</value>
+			<value>-7.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{db8b0aa1-1f47-4214-8007-446040641e10}</destination>
